@@ -1,25 +1,100 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "background-color": "#ffffff",
+  "categories": ["education", "music"],
+  "description": "Esta es una PWA para JUMAPAA.",
+  "dir": "ltr",
+  "display_override": ["standalone","fullscreen"],
+  "display": "standalone",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "11.jpg",
+      "sizes": "303x170",
+      "type": "image/jpg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "22.jpg",
+      "sizes": "1265x771",
+      "type": "image/jpg"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "33.jpg",
+      "sizes": "998x584",
+      "type": "image/jpg"
+    },
+    {
+      "src": "44.jpg",
+      "sizes": "225x225",
+      "type": "image/jpg"
+    },
+    {
+      "src": "55.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpg"
+    },
+    {
+      "src": "66.jpg",
+      "sizes": "750x290",
+      "type": "image/jpg"
+    },
+    {
+      "src": "77.jpg",
+      "sizes": "225x225",
+      "type": "image/jpg"
+    },
+    {
+      "src": "88.png",
+      "sizes": "512x190",
+      "type": "image/png"
+    },
+    {
+      "src": "99.png",
+      "sizes": "369x136",
+      "type": "image/png"
+    },
+    {
+      "src": "100.png",
+      "sizes": "225x225",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "lang": "es-MX",
+  "name": "PWA JUMAPAA",
+  "orientation": "portrait",
+  "prefer_related_application": false,
+  "scope": "/",
+  "short_name": "PWA JUMAPA",
+  "shortcuts": [
+    {
+      "name": "Ir al Inicio",
+      "short_name": "inicio",
+      "description": "ahorra tiempo y ve a Inicio",
+      "url": "/inicio"
+    },
+    {
+      "name": "Ir a ¿Quienes Somos?",
+      "short_name": "quienes",
+      "description": "ahorra tiempo y ve a Quienes somos",
+      "url": "/quienes"
+    },
+    {
+      "name": "Ir a Servicio",
+      "short_name": "Servicio",
+      "description": "ahorra tiempo y ve a Servicio",
+      "url": "/servicio"
+    },
+    {
+      "name": "Ir a Reporte de fallas",
+      "short_name": "fallas",
+      "description": "ahorra tiempo y ve a Reporte de fallas",
+      "url": "/fallas"
+    },
+    {
+      "name": "Ir a Noticias y avisos",
+      "short_name": "noticias",
+      "description": "ahorra tiempo y ve a Noticias y avisos",
+      "url": "/noticias"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "cyan"
 }
